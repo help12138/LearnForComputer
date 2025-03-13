@@ -24,6 +24,9 @@
     <ClCompile Include="stack.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="array_hash.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="count.h">

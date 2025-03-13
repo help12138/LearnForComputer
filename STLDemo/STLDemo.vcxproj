@@ -24,6 +24,7 @@
     <ProjectGuid>{86165b52-0384-418b-99b1-86b7616465d4}</ProjectGuid>
     <RootNamespace>STLDemo</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>Structure</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -128,6 +129,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Array.cpp" />
+    <ClCompile Include="array_hash.cpp" />
     <ClCompile Include="ListNode.cpp" />
     <ClCompile Include="stack.cpp" />
   </ItemGroup>

@@ -1,10 +1,16 @@
-#include "ListNode.cpp"
+#include "count.h"
 
-#define DEBUG
-
-#ifdef DEBUG
 /************************************/
 // 链表实现栈
+
+struct ListNode
+{
+	// 单向链表
+	int val;
+	ListNode* next;
+	ListNode(int x) :val(x), next(nullptr) {};
+};
+
 class LinkedListStack
 {
 private:
@@ -63,20 +69,4 @@ LinkedListStack::~LinkedListStack()
 	}
 }
 
-
-
-int main() {
-
-	return 0;
-}
-
-#else
-/************************************/
-// 数组实现栈
-
-int main() {
-
-	return 0;
-}
-#endif // DEBUG
 
