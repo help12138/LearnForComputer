@@ -1,7 +1,7 @@
 #include "count.h"
 
 void hello(){
-    cout << "hello thread";
+    cout << "hello thread" << endl;
 }
 
 int main(){
