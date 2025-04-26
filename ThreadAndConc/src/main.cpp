@@ -5,9 +5,11 @@ void hello(){
 }
 
 int main(){
-    thread t(hello);
-    t.join(); // 确定从哪个位置汇入子线程
-    std::cout<< "this is thread" << endl;
+    vector<int> list = {1,2,5,6,7};
+    for (auto &item : list)
+    {
+        cout << item << endl;
+    }
     
     return 0;
 }
