@@ -38,7 +38,7 @@ int pointFunc (const int* num){
     return 0;
 }
 
-int main(){
+int mai(){
     // 函数调用
     
 
