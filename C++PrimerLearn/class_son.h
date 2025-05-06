@@ -1,6 +1,6 @@
 #ifndef SON_HEAD
 #define SON_HEAD
-#include "father.h"
+#include "class_father.h"
 
 class Bulk_quote : public Quote{
 public:
